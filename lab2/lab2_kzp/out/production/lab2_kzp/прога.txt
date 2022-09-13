@@ -33,7 +33,8 @@ public class Lab2PaliiKI34
 
             System.out.println("Введіть розмір мтариці");
             Scanner SizeOfArr = new Scanner(System.in);
-            int size = (SizeOfArr.nextInt()) - 2;
+            int first_size = (SizeOfArr.nextInt());
+            int size = first_size - 2;
 
 
             String symbol;
@@ -69,14 +70,49 @@ public class Lab2PaliiKI34
                 }
             }
 
-            for (char[] row : arr2) {                             // вивід в консоль
+
+            /*char symbol3 = 'y';
+            for (int i = 0; i < size; i++) {        //запис зубчастої матриці (для перевірки чи вивід йде кожного елемента окремо)
+                for (int j = 0; j < size; j++) {
+                    if (i == 0 || i == (size - 1)) {
+                        arr2[i][j] = symbol2;
+                    } else if (j < 2) {
+                        arr2[i][j] = symbol3;
+                    }
+                }
+            }*/
+
+
+
+            for (char[] row : arr2) {                             // вивід зубчастої матриці без форматування
                 System.out.println(Arrays.toString(row));
             }
 
 
-            for (char[] row : arr2) {                             // вивід в файл
-                pw.println(Arrays.toString(row));
+            int n;
+            int m;
+            for (int i = 0; i < first_size; i++) {        //вивід зубчастої матриці з форматуванням
+                n = i - 1;
+                m = 0;
+                for (int j = 0; j < first_size; j++) {
+                    if ((i == 1 && j!= 0 && j!= (first_size -1)) || (i == (first_size - 2) && j != 0 && j != (first_size -1))) {
+                        System.out.print(arr2[n][m] + "\t");
+                        pw.print(arr2[n][m] + "\t");
+                        m++;
+                    } else if (i > 1 && i < (first_size-2) && (j == 1 ||  j == (first_size-1))) {
+                        System.out.print(arr2[n][m]);
+                        pw.print(arr2[n][m]);
+                        m++;
+                    } else {
+                        System.out.print("\t");
+                        pw.print("\t");
+                    }
+                }
+                System.out.print("\n");
+                pw.print("\n");
             }
+
+
             pw.close();
         }
     }

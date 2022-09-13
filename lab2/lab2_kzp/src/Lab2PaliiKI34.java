@@ -84,9 +84,9 @@ public class Lab2PaliiKI34
 
 
 
-            for (char[] row : arr2) {                             // вивід зубчастої матриці без форматування
+            /*for (char[] row : arr2) {                             // вивід зубчастої матриці без форматування
                 System.out.println(Arrays.toString(row));
-            }
+            }*/
 
 
             int n;
@@ -99,10 +99,13 @@ public class Lab2PaliiKI34
                         System.out.print(arr2[n][m] + "\t");
                         pw.print(arr2[n][m] + "\t");
                         m++;
-                    } else if (i > 1 && i < (first_size-2) && (j == 1 ||  j == (first_size-1))) {
-                        System.out.print(arr2[n][m]);
-                        pw.print(arr2[n][m]);
+                    } else if (i > 1 && i < (first_size-2) && (j == 1 ||  j == (first_size-2))) {
+                        System.out.print(arr2[n][m]+ "\t");
+                        pw.print(arr2[n][m]+ "\t");
                         m++;
+                    } else if(i==0 || i==(first_size-1) || j==0 || j == (first_size-1)){
+                        System.out.print("o\t");
+                        pw.print("o\t");
                     } else {
                         System.out.print("\t");
                         pw.print("\t");
