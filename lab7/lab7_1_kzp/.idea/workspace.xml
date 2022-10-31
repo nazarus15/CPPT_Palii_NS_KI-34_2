@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdd7188b-bb19-4990-8340-c99e75eb1cd7" name="Changes" comment="">
+    <list default="true" id="57386470-daf6-4bbb-96f9-24960dc25c27" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../lab4/lab4_kzp/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/lab4_kzp/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lab4/lab4_kzp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/lab4_kzp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab5/lab5_kzp/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab5/lab5_kzp/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab5/lab5_kzp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab5/lab5_kzp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab5/lab5_kzp/res" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab5/lab5_kzp/res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab5/lab5_kzp/src/KI34/Palii/lab5/CalcExeption.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab5/lab5_kzp/src/KI34/Palii/lab5/CalcExeption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab5/lab5_kzp/src/KI34/Palii/lab5/Equations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab5/lab5_kzp/src/KI34/Palii/lab5/Equations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab5/lab5_kzp/src/KI34/Palii/lab5/EquationsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab5/lab5_kzp/src/KI34/Palii/lab5/EquationsApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -23,8 +30,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Elzr37PXgN2GQFaE75oYiRxLPd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2GJJUUtxYJ69b78yYrB1658x5k6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,18 +42,17 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/nzpal/OneDrive/Документи/3 course/KZP/Labs/lab5/lab5_kzp&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nzpal/OneDrive/Документи/3 course/KZP/Labs/lab7/lab7_1_kzp&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cdd7188b-bb19-4990-8340-c99e75eb1cd7" name="Changes" comment="" />
-      <created>1663185156054</created>
+      <changelist id="57386470-daf6-4bbb-96f9-24960dc25c27" name="Changes" comment="" />
+      <created>1666100770602</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1663185156054</updated>
+      <updated>1666100770602</updated>
     </task>
     <servers />
   </component>

@@ -39,11 +39,18 @@ public class EquationsApp {
                 // Блок перехоплює помилки обчислень виразу
                 out.print(ex.getMessage());
             }
+            finally
+            {
+                // Цей блок виконається за будь-яких обставин
+                fout.flush();
+                fout.close();
+                out.println("\nFinally");
+            }
         }
         catch (FileNotFoundException ex)
         {
-// Блок перехоплює помилки роботи з файлом навіть якщо вони
-// виникли у блоці finally
+            // Блок перехоплює помилки роботи з файлом навіть якщо вони
+            // виникли у блоці finally
             out.print("Exception reason: Perhaps wrong file path");
         }
     }
